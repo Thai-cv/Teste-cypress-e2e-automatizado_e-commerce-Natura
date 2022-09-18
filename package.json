@@ -1,0 +1,26 @@
+{
+  "name": "nucleus_cypress",
+  "version": "1.0.0",
+  "description": "Nucleus.eti teste automatizado utilizando Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "cy:report": "npx cypress run --record --key ced9a46f-a46d-4c88-83b6-307384f29cf1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thai-cv/nucleus_estagio_teste.git"
+  },
+  "author": "Thainá Cardoso Valença",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thai-cv/nucleus_estagio_teste/issues"
+  },
+  "homepage": "https://github.com/Thai-cv/nucleus_estagio_teste#readme",
+  "dependencies": {
+    "cypress": "^10.8.0",
+    "faker-br": "^0.4.1"
+  }
+}
